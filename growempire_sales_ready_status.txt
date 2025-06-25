@@ -1,0 +1,9 @@
+✅ GrowEmpire – Verkaufs-Version wird jetzt aufgebaut
+
+Geplant:
+1. Startseite mit Nutzenversprechen, Beispielrechnungen & CTA
+2. Bonusseite mit Level-Visualisierung & Reinvestmotivation
+3. Empfehlungsseite mit Link + QR/Teilen
+4. Verbindung zum Supabase-System
+5. Hochwertiges Design mit Fokus auf Vertrauen & Verdienst
+6. ZIP-Datei mit index.html, bonus.html, partner.html usw.

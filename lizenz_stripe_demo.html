@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>GrowEmpire – Lizenz kaufen</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://js.stripe.com/v3/"></script>
+  <style>
+    body { font-family: 'Inter', sans-serif; margin: 0; background: #f0fff0; padding: 2em; }
+    h1 { text-align: center; color: #2e7d32; }
+    .grid {
+      display: grid;
+      gap: 1.5em;
+      max-width: 1000px;
+      margin: 2em auto;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+    .card {
+      background: white;
+      padding: 1.5em;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .price {
+      font-size: 1.4em;
+      color: #1b5e20;
+      margin: 0.5em 0;
+      font-weight: bold;
+    }
+    button {
+      background: #43a047;
+      border: none;
+      color: white;
+      padding: 0.8em 1.2em;
+      font-size: 1em;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 1em;
+    }
+  </style>
+</head>
+<body>
+  <h1>🌿 Wähle deine GrowEmpire Lizenz</h1>
+  <div class="grid">
+    <div class="card">
+      <h2>🌱 3 Monate</h2>
+      <p>Ideal für 1 Pflanze / Erntezyklus</p>
+      <div class="price">CHF 199.–</div>
+      <button onclick="lizenzKaufen(199, '3 Monate')">Lizenz kaufen</button>
+    </div>
+    <div class="card">
+      <h2>🌿 6 Monate</h2>
+      <p>Für 2–3 Grows mit Rabatt</p>
+      <div class="price">CHF 349.–</div>
+      <button onclick="lizenzKaufen(349, '6 Monate')">Lizenz kaufen</button>
+    </div>
+    <div class="card">
+      <h2>🌳 12 Monate</h2>
+      <p>Durchgehend Zugriff & Freedom</p>
+      <div class="price">CHF 499.–</div>
+      <button onclick="lizenzKaufen(499, '12 Monate')">Lizenz kaufen</button>
+    </div>
+  </div>
+
+  <script>
+    const stripe = Stripe("pk_test_51Rcj98EPAhY929Z6QPyh2uDTRrkdd53Th..."); // PLACEHOLDER KEY
+
+    async function lizenzKaufen(betrag, laufzeit) {
+      // DEMO: Weiterleitung zur Fake-URL mit Queryparametern
+      const user = localStorage.getItem("userid") || "demo-user";
+      const redirectUrl = `dashboard.html?lizenz=ok&laufzeit=${laufzeit}&preis=${betrag}&user_id=${user}`;
+      alert("Stripe-Demo: Weiterleitung zum Kauf abgeschlossen");
+      window.location.href = redirectUrl;
+    }
+  </script>
+</body>
+</html>

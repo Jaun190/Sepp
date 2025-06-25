@@ -1,0 +1,33 @@
+
+GrowEmpire – DASHBOARD-AUSBAU ✅
+
+Folgende Bereiche werden im neuen Dashboard vollständig integriert:
+
+1. LIZENZSTATUS
+   - Art, Preis, Laufzeit
+   - Gültig bis, Status (aktiv/inaktiv)
+   - Hinweis bei Ablauf
+
+2. PFLANZENSTATUS
+   - Anzahl gekaufter Pflanzen
+   - Countdown zur Ernte (Tage)
+   - Fortschrittsanzeige als Balken
+   - Ertrag pro Pflanze sichtbar
+
+3. ERTRAG & BONUS
+   - Tagesgenaue Anzeige (z. B. 67 von 75 Tagen)
+   - Bonus sichtbar bei Reinvest oder Partnerwerbung
+   - Reinvest-Button
+
+4. REFERRALS & PARTNER
+   - Werberlink kopierbar
+   - Liste direkter Partner
+   - Provisionen aufgeschlüsselt
+
+5. ADMINTOOLS (nur für Admin sichtbar)
+   - PDF-Download für alle Käufe
+   - Lizenzübersicht aller Nutzer
+
+Design: Hell, modern, zentriert, responsiv
+
+Ziel: Visuell beeindruckendes, funktionales Dashboard für GrowEmpire

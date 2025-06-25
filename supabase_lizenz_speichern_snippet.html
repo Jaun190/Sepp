@@ -1,0 +1,41 @@
+
+<!-- Supabase JS SDK laden -->
+<script src="https://unpkg.com/@supabase/supabase-js"></script>
+<script>
+  const supabase = supabase.createClient(
+    "https://ghfzdgaunxblpudkmxmy.supabase.co",
+    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdoZnpkZ2F1bnhibHB1ZGtteG15Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTA3MDI5NTksImV4cCI6MjA2NjI3ODk1OX0.J8ni4SszaI33ljthdEjqXf8ZKFCs4uWnRZZDyU0IlUU"
+  );
+
+  async function speichereLizenzNachZahlung() {
+    const url = new URL(window.location.href);
+    if (url.searchParams.get("lizenz") === "ok") {
+      const user_id = url.searchParams.get("user_id");
+      const laufzeit = url.searchParams.get("laufzeit");
+      const preis = parseFloat(url.searchParams.get("preis"));
+      const start = new Date().toISOString();
+      const end = new Date();
+      const monate = laufzeit === "3 Monate" ? 3 : laufzeit === "6 Monate" ? 6 : 12;
+      end.setMonth(end.getMonth() + monate);
+      const enddatum = end.toISOString();
+
+      const { data, error } = await supabase.from("licenses").insert([
+        {
+          user_id: user_id,
+          type: laufzeit,
+          price: preis,
+          status: "aktiv",
+          purchased_at: start,
+          valid_until: enddatum
+        }
+      ]);
+      if (error) {
+        console.error("Lizenzspeicherung fehlgeschlagen:", error.message);
+      } else {
+        console.log("Lizenz gespeichert:", data);
+      }
+    }
+  }
+
+  speichereLizenzNachZahlung();
+</script>

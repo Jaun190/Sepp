@@ -1,0 +1,46 @@
+📦 AKTUELLER STAND – GrowEmpire
+
+✅ ZIP-Dateien (Downloads):
+– growempire_local_ready.zip
+– growempire_local_complete.zip
+– growempire_dashboard_complete.zip
+– growempire_local_advanced.zip
+– growempire_local_advanced_v2.zip
+– growempire_local_progressbar.zip
+– growempire_local_barwithtext.zip
+– growempire_local_daysbar.zip
+– growempire_local_dayslabel.zip
+– growempire_multi_plants.zip
+– growempire_reinvest_angebot.zip
+– growempire_reinvest_mehrpflanzen.zip
+– growempire_reinvest_countdown.zip
+– growempire_reinvest_24h.zip
+– growempire_reinvest_clean.zip
+– growempire_reinvest_multipflanzen.zip
+– growempire_reinvest_reset.zip
+– growempire_growth_simulation.zip
+– growempire_adminpanel.zip
+– growempire_admin_login.zip
+– growempire_auszahlung_pdf.zip
+– growempire_adminpanel_complete.zip
+– growempire_adminpanel_supabase.zip
+– growempire_adminpanel_allinone.zip
+– growempire_adminpanel_dynamicpdf.zip
+– growempire_adminpanel_reinvest.zip
+– growempire_local_complete_v2.zip
+– growempire_complete_ready.zip
+– growempire_fertig_final.zip
+– growempire_ready_with_auth.zip
+– growempire_with_pflanzenkauf.zip
+– growempire_dashboard_reinvest.zip
+– growempire_dashboard_autoupdate.zip
+– growempire_statistik_complete.zip
+– growempire_allfeatures_complete.zip
+– growempire_pdf_ready.zip
+– growempire_admin_pdf_log.zip
+– growempire_admin_secured.zip
+– growempire_meine_pdfs.zip
+
+📝 Status-/Steuerdateien:
+– system_baue_alle_funktionen.txt
+– GrowEmpire_FULL_SYSTEM_BUILD.txt

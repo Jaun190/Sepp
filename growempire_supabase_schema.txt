@@ -1,0 +1,42 @@
+
+Supabase Tabellenstruktur (wird eingebaut):
+
+1. users
+   - id (uuid)
+   - email
+   - werber_id (uuid) → referral-Zuordnung
+   - created_at
+
+2. licenses
+   - id
+   - user_id (uuid)
+   - type (Monat / Lifetime)
+   - price
+   - status (aktiv/inaktiv)
+   - purchased_at
+
+3. plants
+   - id
+   - user_id (uuid)
+   - type (Standard / Reinvest)
+   - price
+   - purchase_date
+   - status (growing / harvested)
+   - ernte_datum
+   - reinvest_id (optional)
+
+4. payouts
+   - id
+   - user_id
+   - amount
+   - created_at
+   - status (ausstehend / ausgezahlt)
+
+5. referrals
+   - id
+   - user_id
+   - ref_id (uuid geworbener Nutzer)
+   - created_at
+   - bonus_amount
+
+Diese Tabellen werden mit Stripe, Login, PDF und Dashboard logisch verbunden.

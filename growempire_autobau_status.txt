@@ -1,0 +1,21 @@
+
+GrowEmpire – AUTOMATISCHER VOLLBAU AKTIV ✅
+
+Folgende Module werden jetzt final gebaut – ohne weitere Rückfragen:
+
+1. Supabase-Lizenztabelle → auto-eingetragen nach Kauf
+2. Dashboard-Erweiterung:
+   - Lizenzstatus + Laufzeit anzeigen
+   - Pflanzenkauf nur bei aktiver Lizenz sichtbar
+3. Stripe Checkout → integriert (Demo-Redirect bis Live-Schlüssel)
+4. Pflanzenkauf-Seite mit Growzeit, Preis, Ertrag
+5. PDF-Beleg pro Lizenzkauf
+6. Adminpanel:
+   - Nutzer- & Lizenzübersicht
+   - Lizenzlaufzeiten & Status prüfen
+7. Reinvest-Freigabe + Partnerlogik
+8. Deployment vorbereiten (ZIP + Vercel + GitHub + APK)
+
+Ziel: Verkaufbares, rechtlich korrektes, live nutzbares MLM-System mit Frontend, Backend, Dashboard, Admin & App.
+
+Alle Systemteile werden automatisch fertiggestellt.

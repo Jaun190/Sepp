@@ -1,0 +1,8 @@
+🎁 BONUSMODUL im Aufbau:
+- Nutzer erhalten Bonuspunkte bei jedem Reinvest
+- Punkte sichtbar im Dashboard
+- Monatsbonus bei aktivem Nutzerverhalten (>= 3 Reinvests)
+- Cashback-Level ab 5 Reinvests oder CHF 500 Ertrag
+- Vorbereitung auf Treuestufe & NFT-Badge optional
+
+➡️ Alle Logiken werden automatisch eingebaut.

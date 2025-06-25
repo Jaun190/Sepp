@@ -1,0 +1,18 @@
+
+Stripe-Zahlung (Integration wird gestartet):
+
+1. Zahlungsarten:
+   - Starterbox (CHF 500.–)
+   - Standard-Pflanze (CHF 300.–)
+   - Reinvest-Pflanze (CHF 250.–)
+
+2. Technische Umsetzung:
+   - Stripe Checkout Session
+   - Erfolg → Rückleitung ins Dashboard
+   - Supabase-Speicherung: Kauf + Preis + User-ID
+   - PDF-Beleg wird direkt generiert
+
+3. Erweiterung:
+   - Provision an Werber bei Starterbox (CHF 50.–)
+   - Reinvest-Boni und Cashback in Tabelle
+   - Level-Upgrade ab Kaufanzahl/Umsatz

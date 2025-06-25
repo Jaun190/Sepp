@@ -1,0 +1,22 @@
+
+GrowEmpire – Pflanzenmodul ✅
+
+Fertiggestellt:
+- pflanzen.html mit:
+  - 3 Sorten: Basic, Premium, Reinvest Grow
+  - Staffelpreise nach Menge
+  - Ertragsanzeige pro Sorte
+  - Button pro Auswahl (Demo-Kauf)
+  - Design im hellen Stil passend zum Dashboard
+
+Nächste Schritte (wird automatisch umgesetzt):
+1. Stripe-Kaufprozess (dynamisch je nach Sorte + Menge)
+2. Supabase-Speicherung:
+   - user_id, sorte, menge, kaufdatum, erntedatum, reinvest?
+3. Dashboard-Anzeige:
+   - Countdown bis Ernte (pro Pflanze)
+   - Reinvest-Option aktivieren
+4. PDF-Beleg automatisch erzeugen nach Kauf
+5. Adminpanel: Übersicht aller Pflanzenkäufe
+
+Alles läuft automatisiert weiter.
